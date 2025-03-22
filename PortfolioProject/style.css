@@ -1,0 +1,212 @@
+/* FONT IMPORTS */
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* Cabin */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(animations.css);
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    color-scheme: dark;
+    scroll-behavior:smooth;
+}
+
+header
+{
+    /* Fixed bar */
+    position: sticky;
+    top:0;
+    z-index: 9999;
+
+    /* Size settings */
+    width: 100%;
+    height: 9rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #000000;
+
+    /* Display settings */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.Header-Section-Options
+{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+
+.Header-Section-Button-Background
+{
+    align-content: center;
+    text-align: center;
+    width: 85px;
+    height: 50px;
+}
+
+.Header-Section-Button{
+    color: #9a9a9a;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 0;
+    margin: 0 auto;
+    transition: ease-in-out 100ms;
+
+}
+
+.Header-Section-Button:hover{
+
+    color: white;
+    
+    font-weight: 700;
+    font-size: 1.6em;
+    transition: ease-in-out 100ms;
+}
+
+.Main-Section
+{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    max-width: 120rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+    align-content: center;
+}
+
+.Section-Title{
+    font-size: 2.5rem;
+}
+
+.Main-Section-Home{
+    height: 66rem;
+    text-align: right;
+}
+
+.Main-Section-AboutMe{
+    height: 66rem;
+    text-align: left;
+}
+
+.Main-Section-Projects{
+
+    text-align: right;
+}
+
+.Main-Section-Contact{
+    height: 30rem;
+    text-align: left;
+}
+
+footer
+{
+    /* Size settings */
+    width: 100%;
+    height: 9rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 5rem;
+    background-color: #000000;
+
+    /* Display settings */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Projects-Section-Background{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Projects-Images{
+    width: 402px;
+    height: 292px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    transition: opacity 0.5s ease-in-out;
+    opacity: 100%;
+    object-fit: cover;
+}
+
+.Projects-Images-Background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 320px;
+    gap: 1rem;
+}
+
+.Projects-Images-Select{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.Projects-Images-Selection-Button{
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    background-color: #9a9a9a;
+}
+
+.Projects-Images-Container{
+    overflow: hidden;
+    height: 292px;
+}
+
+.Landscape-Image{
+    width: 251px;
+    height: 141px;
+}
+
+.Quad-Image{
+    width: 141px;
+    height: 141px;
+}
+
+.Projects-About{
+    height: 320px;
+
+    width: 60rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.Projects-About h2{
+    text-align: center;
+}
+.Projects-About p{
+    text-align: justify;
+}

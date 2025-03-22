@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Portfolio </h1>
+        <section class = "Header-Section-Options">
+            <div class = "Header-Section-Button-Background"> <h2 class = "Header-Section-Button" onclick="MoveToHomeSection()">Home</h2> </div>
+            <div class = "Header-Section-Button-Background"> <h2 class = "Header-Section-Button" onclick="MoveToAboutSection()">Sobre mim</h2> </div>
+            <div class = "Header-Section-Button-Background"> <h2 class = "Header-Section-Button" onclick="MoveToProjectsSection()">Projetos</h2> </div>
+            <div class = "Header-Section-Button-Background"> <h2 class = "Header-Section-Button" onclick="MoveToContactSection()">Contato</h2> </div>
+        </section>
+    </header>
+    <main>
+        <section class= "Main-Section">
+            <!-- Home Section -->
+            <section class = "Main-Section-Home" id = "HomeSection">
+                <h2 class = "Section-Title">Bem vindo!</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia qui nisi deserunt neque eveniet repudiandae beatae, soluta eligendi harum asperiores fugiat inventore animi nihil. Ipsam eius nemo asperiores quibusdam delectus! </p>
+            </section>
+            
+            <!-- AboutMe Section -->
+            <section class = "Main-Section-AboutMe" id = "AboutSection">
+                <h2 class = "Section-Title">Sobre mim</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quia nam provident ipsum enim quis pariatur aut. Perferendis maxime, ab corrupti commodi ex alias autem animi! Cupiditate, voluptatum. Atque, quasi. </p>
+            </section>
+
+            <!-- Projects Section -->
+            <section class = "Main-Section-Projects" id = "ProjectsSection">
+                <h2 class = "Section-Title">Projetos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque sapiente rerum fuga atque, molestiae autem voluptas, et aliquam eaque ea architecto, eligendi aperiam facilis! Cumque sunt id numquam! Accusantium, ullam.</p>    
+                <section class = Projects-Section-Background>
+                    <section class = "Projects-Images-Background">
+                        <section class = "Projects-Images">
+                            <img src = "Assets/IamanduImages/IamanduLogo423x423.png" alt = "Logo da Iamandu Studios" class = "Quad-Image" id = "First-Quad-Image">
+                            <img src = "Assets/IamanduImages/EclipseBossFightGameplay753x423.png" alt = "Gameplay da luta de chefe do jogo Eclipse: Shine of Dawn" class = "Landscape-Image" id = "First-Landscape-Image">
+                            <img src = "Assets/IamanduImages/EclipsePuzzleGameplay753x423.png" alt = "Gameplay de puzzle do jogo Eclipse: Shine of Dawn" class = "Landscape-Image" id = "Second-Landscape-Image">
+                            <img src = "Assets/IamanduImages/IamanduTeam423x423.png" alt = "Foto da equipe da Iamandu Studios" class = "Quad-Image" id = "Second-Quad-Image">
+                        </section>
+                        <section class = "Projects-Images-Select">
+                            <div class = "Projects-Images-Selection-Button Selected"></div>
+                            <div class = "Projects-Images-Selection-Button"></div>
+                            <div class = "Projects-Images-Selection-Button"></div>
+                            <div class = "Projects-Images-Selection-Button"></div>
+                            <div class = "Projects-Images-Selection-Button"></div>
+                    </section>
+                    </section>
+                    <section class = "Projects-About">
+                        <h2>Iamandu Studios</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam ea praesentium a expedita, in illum blanditiis ab eligendi dignissimos et, vitae quos ex officiis aut rem natus iusto sunt dolorem.</p>
+                    </section>
+                </section>
+            </section>
+
+            <!-- Contact -->
+            <section class = "Main-Section-Contact" id = "ContactSection">
+                <h2 class = "Section-Title">Contato</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, inventore quibusdam illo, eligendi rem minima voluptas quaerat dicta fugiat, vero ratione cupiditate? Alias ea enim architecto doloremque esse error accusamus!</p>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section class = "Footer-Section-Rights">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime esse doloremque cumque non libero aliquid soluta consequuntur ipsam quasi ipsum? Eos rerum veritatis magni consequatur asperiores amet molestiae totam accusantium.</p>
+        </section>
+    </footer>
+
+    <script src = "logic.js" type="text/javascript" defer></script>
+</body>
+</html>
