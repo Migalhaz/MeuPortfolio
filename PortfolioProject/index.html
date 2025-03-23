@@ -37,24 +37,36 @@
                 <section class = Projects-Section-Background>
                     <section class = "Projects-Images-Background">
                         <section class = "Projects-Images">
-                            <img src = "Assets/IamanduImages/IamanduLogo423x423.png" alt = "Logo da Iamandu Studios" class = "Quad-Image" id = "First-Quad-Image">
-                            <img src = "Assets/IamanduImages/EclipseBossFightGameplay753x423.png" alt = "Gameplay da luta de chefe do jogo Eclipse: Shine of Dawn" class = "Landscape-Image" id = "First-Landscape-Image">
-                            <img src = "Assets/IamanduImages/EclipsePuzzleGameplay753x423.png" alt = "Gameplay de puzzle do jogo Eclipse: Shine of Dawn" class = "Landscape-Image" id = "Second-Landscape-Image">
-                            <img src = "Assets/IamanduImages/IamanduTeam423x423.png" alt = "Foto da equipe da Iamandu Studios" class = "Quad-Image" id = "Second-Quad-Image">
+                            <img src = "Assets/IamanduImages/IamanduLogo423x423.png" alt = "Logo da Iamandu Studios" class = "Quad-Image Project-Image" id = "First-Quad-Image">
+                            <img src = "Assets/IamanduImages/EclipseBossFightGameplay753x423.png" alt = "Gameplay da luta de chefe do jogo Eclipse: Shine of Dawn" class = "Landscape-Image Project-Image" id = "First-Landscape-Image">
+                            <img src = "Assets/IamanduImages/EclipsePuzzleGameplay753x423.png" alt = "Gameplay de puzzle do jogo Eclipse: Shine of Dawn" class = "Landscape-Image Project-Image" id = "Second-Landscape-Image">
+                            <img src = "Assets/IamanduImages/IamanduTeam423x423.png" alt = "Foto da equipe da Iamandu Studios" class = "Quad-Image Project-Image" id = "Second-Quad-Image">
                         </section>
-                        <section class = "Projects-Images-Select">
-                            <div class = "Projects-Images-Selection-Button Selected"></div>
-                            <div class = "Projects-Images-Selection-Button"></div>
-                            <div class = "Projects-Images-Selection-Button"></div>
-                            <div class = "Projects-Images-Selection-Button"></div>
-                            <div class = "Projects-Images-Selection-Button"></div>
-                    </section>
                     </section>
                     <section class = "Projects-About">
-                        <h2>Iamandu Studios</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam ea praesentium a expedita, in illum blanditiis ab eligendi dignissimos et, vitae quos ex officiis aut rem natus iusto sunt dolorem.</p>
+                        <h3 class = "Project-Name">Iamandu Studios</h3>
+                        <p class = "Project-Summary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam ea praesentium a expedita, in illum blanditiis ab eligendi dignissimos et, vitae quos ex officiis aut rem natus iusto sunt dolorem.</p>
                     </section>
                 </section>
+                <section class = "Projects-Images-Select">
+                    <div onclick="DecreaseImageIndex()" class = "Images-Selection-Background">
+                        <p> < </p>
+                    </div>
+                    
+                    <div class = "Images-Selection-Background">
+                        <div class = "Projects-Images-Selection-Button Image-Selected" data-index="0"></div>
+                    </div>
+
+                    <div class = "Images-Selection-Background">
+                        <div class = "Projects-Images-Selection-Button" data-index="1"></div>
+                    </div>
+
+                    <div onclick="IncreaseImageIndex()" class = "Images-Selection-Background">
+                        <p> > </p>
+                    </div>
+
+            </section>
+
             </section>
 
             <!-- Contact -->
