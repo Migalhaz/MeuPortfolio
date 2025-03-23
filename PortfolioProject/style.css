@@ -99,6 +99,11 @@ header
     font-size: 2.5rem;
 }
 
+.Section-Subtitle
+{
+    margin-top: 1em;
+}
+
 .Main-Section-Home{
     height: 66rem;
     text-align: right;
