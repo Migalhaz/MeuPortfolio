@@ -92,7 +92,8 @@ header
 {
     align-content: center;
     text-align: center;
-    width: 85px;
+    min-width: 100px;
+    max-width: 200px;
     height: auto;
 }
 
@@ -177,8 +178,6 @@ footer
     
     justify-content: space-between;
     flex-wrap: wrap;
-    
-    background-color: crimson;
 }
 
 .Projects-Images{
@@ -196,8 +195,6 @@ footer
     transition: opacity 0.5s ease-in-out;
     opacity: 100%;
     object-fit: cover;
-
-    background-color: cadetblue;
 }
 
 .Projects-Images-Select{
@@ -285,8 +282,6 @@ footer
     display: flex;
     flex-direction: column;
     gap: 1em;
-
-    background-color: blueviolet;
 }
 .Project-Name{
     text-align: center;
