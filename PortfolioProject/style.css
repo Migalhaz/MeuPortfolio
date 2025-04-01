@@ -136,8 +136,46 @@ header
 }
 
 .Main-Section-Home{
-    height: 66rem;
     text-align: right;
+}
+
+.Home-Tab-Container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.Home-Tab-Title{
+    text-align: center;
+    
+}
+
+.Home-Tab-Summary{
+    text-align: justify;
+}
+
+.Home-Tab{
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    min-height: 25em;
+    text-align: center;
+    padding: 1em;
+    border-radius: 30px;
+    gap: 1em;
+}
+
+.Home-Tab:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+    transform: scale(1.05) translateY(-3%);
+    transition: .3s;
 }
 
 .Main-Section-AboutMe{
